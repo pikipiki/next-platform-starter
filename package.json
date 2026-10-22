@@ -1,29 +1,31 @@
 {
-    "name": "next-netlify-platform-starter",
-    "version": "0.1.0",
-    "private": true,
-    "scripts": {
-        "dev": "next dev",
-        "build": "next build",
-        "start": "next start",
-        "lint": "next lint"
-    },
-    "dependencies": {
-        "@netlify/blobs": "^8.1.0",
-        "blobshape": "^1.0.0",
-        "bright": "^0.8.5",
-        "markdown-to-jsx": "^7.4.5",
-        "next": "15.0.1",
-        "react": "18.3.1",
-        "react-dom": "18.3.1",
-        "unique-names-generator": "^4.7.1"
-    },
-    "devDependencies": {
-        "autoprefixer": "^10.4.18",
-        "daisyui": "^4.12.8",
-        "eslint": "8.57.1",
-        "eslint-config-next": "15.0.1",
-        "postcss": "^8.4.36",
-        "tailwindcss": "^3.4.1"
-    }
+  "name": "next-netlify-platform-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^11.1.6",
+    "blobshape": "^1.0.0",
+    "bright": "^1.0.0",
+    "markdown-to-jsx": "^9.10.3",
+    "next": "16.5.0-canary.21",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "unique-names-generator": "^4.7.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.6.1",
+    "daisyui": "^5.7.50",
+    "eslint": "10.13.0",
+    "eslint-config-next": "16.5.0-canary.21",
+    "postcss": "^8.5.31",
+    "tailwindcss": "^3.4.1",
+    "vitest": "^5.1.0-beta.1"
+  }
 }
